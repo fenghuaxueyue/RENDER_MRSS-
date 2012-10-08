@@ -1,0 +1,84 @@
+#header
+{
+	height: 50px;
+	font-family:Arial;
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.AccordionTitle, .AccordionTitleAlter, .AccordionContent, .AccordionContainer
+{
+  position:relative;
+  width:800px;
+}
+
+.AccordionTitle
+{
+  height:40px;
+  overflow:hidden;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  vertical-align:middle;
+  text-align:center;
+/*  background-repeat:repeat-x; */
+  background-color: #F0F8FF;
+  border: 1px solid #000000;
+  display:table-cell;
+/*  background-image:url('../title_repeater.jpg');*/
+  -moz-user-select:none;
+}
+
+.AccordionTitleAlter
+{
+  height:40px;
+  overflow:hidden;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  vertical-align:middle;
+  text-align:center;
+/*  background-repeat:repeat-x; */
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  display:table-cell;
+/*  background-image:url('../title_repeater.jpg');*/
+  -moz-user-select:none;
+}
+
+.AccordionContent
+{
+  height:0px;
+  overflow:auto;
+  display:none;
+  margin:0 auto;
+}
+
+.AccordionContainer
+{
+  border-top: solid 1px #C1C1C1;
+  border-bottom: solid 1px #C1C1C1;
+  border-left: solid 2px #C1C1C1;
+  border-right: solid 2px #C1C1C1;
+}
+
+#AccorionBox
+{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.innerHeader 
+{
+   text-align:center;
+}
+
+.innerSpan
+{
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -1,0 +1,5 @@
+Name: Xin Zhang
+
+index.php: Will get the data from web and save it to a json file.
+
+show.php: Will get the json data from file and show it to users.
